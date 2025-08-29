@@ -445,6 +445,37 @@ padding-top: 40px;
     }
 }
 
+
+/* Sect-8 */
+.sect-8-text{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.sect-8-text h2{
+    font-size: 2.4em;
+    color: #122231;
+}
+.sect-8-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.sect-8-imgs img{
+    max-height: 35px;
+    object-fit: contain;
+}
+@media(max-width:548px){
+    .sect-8-text h2{
+        font-size: 2em;
+    }
+    .sect-8-imgs{
+        gap: 40px;
+    }
+}
+
 /* Footer */
 footer{
     background-color: #ffffff;
